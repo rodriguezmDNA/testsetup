@@ -11,7 +11,7 @@ setup(name='helloworld',
       author_email='joelrome88+code@gmail.com',
       package_dir={'': 'src'},
       py_modules=['helloworld']
-      packages=find_packages(),
+      #packages=find_packages(),
       install_requires=required,
       #long_description=open('README.md').read()
       )
