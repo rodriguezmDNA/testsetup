@@ -25,3 +25,13 @@ import helloworld
 helloworld.say_hello()
 > 'Hello, World'
 ```
+
+
+---
+
+To install a specific branch use `@branch` after the URL:
+
+```bash
+pip install git+https://github.com/rodriguezmDNA/testsetup.git@v2
+
+```
