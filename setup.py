@@ -10,7 +10,8 @@ setup(name='helloworld',
       author='Joel Rodriguez Medina',
       author_email='joelrome88+code@gmail.com',
       package_dir={'': 'src'},
-      packages=find_packages(),
-      install_requires=required,
-      long_description=open('README.md').read()
+      py_modules=['helloworld']
+      #packages=find_packages(),
+      #install_requires=required,
+      #long_description=open('README.md').read()
       )
