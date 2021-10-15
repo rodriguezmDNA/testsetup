@@ -12,6 +12,6 @@ setup(name='helloworld',
       package_dir={'': 'src'},
       py_modules=['helloworld']
       #packages=find_packages(),
-      install_requires=required,
+      #install_requires=required,
       #long_description=open('README.md').read()
       )
