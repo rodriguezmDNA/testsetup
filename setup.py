@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt','r') as f:
-    required = f.read().splitlines()
+#with open('requirements.txt','r') as f:
+#    required = f.read().splitlines()
 
 with open('README.md','r') as fh:
     long_desc = fh.read()
@@ -13,9 +13,10 @@ setup(name='helloworld',
       author='Joel Rodriguez Medina',
       author_email='joelrome88+code@gmail.com',
       package_dir={'': 'src'},
-      py_modules = ['helloworld'],
+      py_modules = ['helloworld','mymod'],
       #packages=find_packages(),
-      install_requires=required,
+      #install_requires=required,
+      install_requires=['pandas'],
       long_description=long_desc,
       long_description_content_type='text/markdown'
       )
