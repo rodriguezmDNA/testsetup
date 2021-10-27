@@ -1,4 +1,4 @@
-def sum(a,b):
+def aggnums(a,b):
     try:
         if a is None or b is None:
             print('need a or b')
