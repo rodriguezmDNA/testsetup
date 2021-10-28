@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+### Resources
+# https://medium.datadriveninvestor.com/how-to-make-the-package-in-python-a82292aeb775
+# https://www.youtube.com/watch?v=GIF3LaRqgXo&t=1s
+# how to setup a venv: https://www.youtube.com/watch?v=GaWs-LenLYE
+
 #with open('requirements.txt','r') as f:
 #    required = f.read().splitlines()
 
